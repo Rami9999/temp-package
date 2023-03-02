@@ -1,5 +1,12 @@
 {
     "name": "rami/calaulater",
     "description": "This is for demo purpose",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "rami\\Calculater\\ServiceProvider"
+            ]
+        }
+    }
 }
